@@ -234,8 +234,7 @@ BridgeTest.sln
 │   ├── Package.appxmanifest MSIX manifest with FullTrust grant
 │   ├── BridgeInstaller.wapproj Packaging project
 │   └── Images/              Application icons and assets
-│
-└── main.tex                (Academic paper with full technical analysis)
+
 ```
 
 ## Key Code Components
@@ -344,7 +343,6 @@ Measured analogous architecture on Samsung Galaxy Note20 Ultra:
 
 ## References
 
-- **Academic Paper**: Full technical analysis in [main.tex](main.tex)
 - **Cost Model**: Power-law transmission model with critical payload threshold
 - **Cross-Platform Analysis**: LQIA preconditions on Windows/Android/macOS
 - **Artifact Repository**: Source code and measurement scripts
@@ -371,7 +369,6 @@ Measured analogous architecture on Samsung Galaxy Note20 Ultra:
 ## Support & Contributing
 
 For questions about CCC, the antipattern characterization, or implementation guidance:
-- Review the academic paper ([main.tex](main.tex)) for detailed mathematical analysis
 - Examine CCCHarness for minimal reproduction case
 - Check AppServiceCommunicator.cs for current implementation patterns
 
